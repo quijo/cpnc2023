@@ -3,6 +3,10 @@ import React from 'react'
 import styles from './navbar.module.css'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import Logo from '@/app/icon.png'
+import Image from 'next/image'
+import { useState } from 'react'
+
 
 
 
@@ -25,52 +29,46 @@ const links = [
 
 ]
 
-//{links.map(link=>(<Link>{link.title}</Link)))}
+
 const Navbar = () => {
 
 
 
   const pathname = usePathname();
-  
-  return (
-    // <div className={styles.container}>
-
-    //   <div className={styles.logo}>
-    //       CPNC
-    //   </div>
-      
-    //   <div className={styles.links}>
-       
-    //       {links.map(link=>( 
-            
-    //       <Link 
-         
-    //       href={link.url}key={link.key} >{ link.title}</Link>
-          
-    //       ))}
-    //   </div>
-    // </div>
+  const [menu, setMenu] = useState('false') 
 
  
-      <div className={styles.container}>
+
+  return (
+      <div className={styles.container} onClick={()=>{setMenu(!menu)}}> 
+        {/* LOGO */}
         <div className={styles.logo}>
-           <Link href="/home" >CPNC</Link> 
+           <Image src={Logo} width={80} height={80} alt="cpnc" />
+           <Link href="/home" > CENTRAL PHILIPPINE <br/> NAZARENE COLLEGE</Link> 
+           <button className={styles.menuBtn}  onClick={()=>{setMenu(!menu)}}>Menu</button>
         </div>
-        <div className={styles.links}>
-        {links.map((link) => {
-          const isActive = pathname.startsWith(link.url)
-   
-          return (
-            <Link
-              className={isActive ? 'active' : 'links'}
-              href={link.url}
-              key={link.id}
-            >
-              {link.title}
-            </Link>
-          )
-        })}
+
+        {/* MENU */}
+        <div className={!menu===true ? styles.activeLinks : styles.links}>
+            {links.map((link) => {
+              const isActive = pathname.startsWith(link.url)
+              return (
+                <Link
+                  className={`${isActive ? 'active' :null} `} 
+                  href={link.url}
+                  key={link.id}
+                  onClick={()=>{setMenu('false')}}
+               >
+                  {link.title}
+                </Link>
+              )
+            })}
+            
+           
         </div>
+
+       
+       
         
       </div>
     
