@@ -3,6 +3,14 @@
   padding: 0;
   margin: 0;
 }
+:root{
+  --primary-color:#0e3854;
+  --secondary-color:#067eed;
+  --tertiary-color:#ff7c1f;
+  --primary-top:#c1e6ff;
+  --white:#fff;
+
+}
 
 html,
 body {
