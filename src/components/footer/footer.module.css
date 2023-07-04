@@ -1,15 +1,21 @@
 .container{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     gap: 50px;
-    padding-bottom: 50px;
+    height: 100px;
+    width: 100%;
+    color:var(--blue100);
+    background-color: #bbb;
+
+  
 }
 .social{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
+    
    
     
 }
@@ -18,8 +24,26 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
+   
+   
 }
 .location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  
+    
+}
+.copyright{
+    display: flex;
+    padding:20px;
+    justify-content: center;
+   
+   
+ 
+}
+.email{
     display: flex;
     justify-content: center;
     align-items: center;

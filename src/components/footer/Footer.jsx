@@ -5,10 +5,9 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <div className={styles.container} >
-      <div className={styles.copyright}>
-         <p>&copy; 2023 Central Philippine Nazarene College Inc.</p> 
-      </div>
+    <main>
+      <div className={styles.container} >
+      
       <div className={styles.location}>
         <Image 
           src="/loc.png"
@@ -18,14 +17,18 @@ const Footer = () => {
           <p>Saint Mary's Drive Apas, Cebu City</p>
       </div>
 
-      <div className={styles.contact}>
+   <div className={styles.contact}>
           <Image 
           src="/call.png"
           width={30}
           height={30}
+          alt='cpnc contact'
           />
           <p>+63 032 505-5131</p>
       </div>
+      
+
+     
 
       <div className={styles.social}>
           <Link href="https://www.facebook.com/cpncMain" target='blank'>
@@ -33,14 +36,28 @@ const Footer = () => {
                 src="/facebook.png"
                 width={30}
                 height={30}
-                alt='cpnc facebook'
+                alt='cpnc social'
               />
           </Link>
           <Link href="https://www.facebook.com/cpncMain" target='blank'>
-            <p>CPNC</p> 
+            <p>CPNC/facebook</p> 
           </Link>
       </div>
+      <div className={styles.email}>
+      <Image 
+                src="/mail.png"
+                width={30}
+                height={30}
+                alt='cpnc email'
+              />
+        <p>registrar@vnbc.edu.ph</p>
+      </div>
     </div>
+    <div className={styles.copyright}>
+         <p>Central Philippine Nazarene College Inc. &copy; 2023  | All Rights Reserved</p> 
+      </div>
+    </main>
+    
   )
 }
 
