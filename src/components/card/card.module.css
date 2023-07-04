@@ -1,0 +1,52 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  width: 250px;
+  /* height: 450px; */
+  padding-top:12px;
+  padding-bottom:12px;
+
+ /* border: solid 1px red; */
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 224px;
+    height: 224px;
+    background-color: green;
+    margin: 0 auto;
+}
+.cardDesc{
+  font-size: 12px;
+  color:var(--blue100);
+  text-align: left;
+  padding:0 10px;
+}
+.cardTitle{
+  color:var(--blue100);
+  text-align: left;
+  padding-left: 10px;
+}
+.enrollBtn{
+  padding: 5px 10px;
+  background-color: var(--yellow);
+  border:none;
+  outline:none;
+  border-radius:24px ;
+  padding-left:16px;
+  padding-right:16px;
+  color:white;
+  width: 100px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.btnContainer{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color:var(--blue100)
+}

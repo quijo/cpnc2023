@@ -2,6 +2,7 @@
 import styles from './page.module.css'
 import Image from 'next/image'
 import Mission from "@/components/mission/Mission"
+import Courses from "@/components/courses/Courses"
 
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
       
       <div className={styles.imageContainer}>
         <Image
-        src="/hero.png"
+        src="/hero4.svg"
       width={600}
        height={400}
         alt='cpnc'
@@ -28,6 +29,7 @@ export default function Home() {
     </div>
     
     <Mission />
+    <Courses />
     </main>
   )
 }

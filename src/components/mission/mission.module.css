@@ -37,3 +37,9 @@
 }
 
 /* MOBILE */
+@media only screen and (max-width: 600px) {
+    .imgContainer{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
