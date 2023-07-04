@@ -24,7 +24,7 @@ const Footer = () => {
           width={30}
           height={30}
           />
-          <p>+62 032 505-5131</p>
+          <p>+63 032 505-5131</p>
       </div>
 
       <div className={styles.social}>
