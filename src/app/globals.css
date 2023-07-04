@@ -4,10 +4,10 @@
   margin: 0;
 }
 :root{
-  --primary-color:#0e3854;
-  --secondary-color:#067eed;
-  --tertiary-color:#ff7c1f;
-  --primary-top:#c1e6ff;
+  --blue100:#0e3854;
+  --blue200:#067eed;
+  --yellow:#ff7c1f;
+  --blue300:#c1e6ff;
   --white:#fff;
 
 }

@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap:20px;
+    
 }
 .navbarMenu{
     display: flex;
@@ -24,7 +24,7 @@
 }
 .loginBtn{
     padding: 5px 10px;
-    background-color: var(--secondary-color);
+    background-color: var(--blue200);
     border:none;
     outline:none;
     border-radius:24px ;
@@ -35,7 +35,7 @@
 }
 .enrollBtn{
     padding: 5px 10px;
-    background-color: var(--tertiary-color);
+    background-color: var(--yellow);
     border:none;
     outline:none;
     border-radius:24px ;
@@ -52,7 +52,7 @@
   
 }
 .logo{
-    justify-content: center;
+    justify-content: space-around;
     /* border:solid 1px red;   */
     width: 100%;
     padding:0;
