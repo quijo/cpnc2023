@@ -14,7 +14,7 @@ const Footer = () => {
           width={30}
           height={30}
           />
-          <p>Saint Mary's Drive Apas, Cebu City</p>
+          <p>Saint Mary&apos;s Drive Apas, Cebu City</p>
       </div>
 
    <div className={styles.contact}>
@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
     </div>
     <div className={styles.copyright}>
-         <p>Central Philippine Nazarene College Inc. &copy; 2023  | All Rights Reserved</p> 
+         <p>Central Philippine Nazarene College Inc. &copy;2023  | All Rights Reserved</p> 
       </div>
     </main>
     

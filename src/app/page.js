@@ -1,10 +1,10 @@
 
-import styles from './page.module.css'
-import Image from 'next/image'
+import styles from "./page.module.css"
+import Image from "next/image"
 import Mission from "@/components/mission/Mission"
 import Courses from "@/components/courses/Courses"
 import College from "@/components/college/College"
-import Link from 'next/link'
+import Link from "next/link"
 
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
     <div className={styles.container}>
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Mentoring Transformational Leaders</h1>
-        <p className={styles.desc}>Central Philippine Nazarene College is committed to mentor transformational leaders of the next generation. We exist to provide quality Christian education, to recognize God's call and to serve the community with excellence. Partner with us in shaping the lives of our learners and equip them for their future.</p>
+        <p className={styles.desc}>Central Philippine Nazarene College is committed to mentor transformational leaders of the next generation. We exist to provide quality Christian education, to recognize God&apos;s call and to serve the community with excellence. Partner with us in shaping the lives of our learners and equip them for their future.</p>
 
         <div className={styles.enrollmentBtn}>
           <h3>Enroll Now!</h3>
