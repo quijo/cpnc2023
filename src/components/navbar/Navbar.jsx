@@ -61,9 +61,9 @@ const Navbar = () => {
           <button className={styles.loginBtn}>Login</button>
         </Link>
 
-        <Link href="https://enrollment.vnbc.edu.ph/wp" target='blank'>
+        {/* <Link href="https://enrollment.vnbc.edu.ph/wp" target='blank'>
           <button className={styles.enrollBtn}>Enroll Now</button>
-        </Link>    
+        </Link>     */}
      </div>
               
     </div>

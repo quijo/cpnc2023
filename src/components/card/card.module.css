@@ -1,24 +1,26 @@
 .container{
   display: flex;
+
   flex-direction: column;
   gap: 20px;
   background-color: white;
-  width: 250px;
+  width: 300px;
   /* height: 450px; */
   padding-top:12px;
   padding-bottom:12px;
+border-radius: 8px;
 
- /* border: solid 1px red; */
 }
 
 .imgContainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 224px;
+    width: 265px;
     height: 224px;
     background-color: green;
     margin: 0 auto;
+    border-radius: 8px;
 }
 .cardDesc{
   font-size: 12px;
@@ -31,7 +33,7 @@
   text-align: left;
   padding-left: 10px;
 }
-.enrollBtn{
+/* .enrollBtn{
   padding: 5px 10px;
   background-color: var(--yellow);
   border:none;
@@ -43,10 +45,41 @@
   width: 100px;
   margin-left: 10px;
   cursor: pointer;
-}
+} */
 .btnContainer{
   display: flex;
+  flex-direction: column;
+  /* justify-content: start; */
   align-items: center;
-  gap: 20px;
-  color:var(--blue100)
+  color:var(--blue100);
+  /* border:solid 1px red; */
+}
+.btnNew{
+  padding:8px 24px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: var(--yellow);
+  width:100%;
+  }
+  .btnNew:hover{
+    color:white;
+  }
+  .btnOld:hover{
+    color:var(--yellow)
+  }
+.btnOld{
+background-color: transparent;
+padding:8px 24px;
+margin-top: 10px;
+border-radius: 20px;
+border: solid 1px white;
+color:var(--blue100);
+border: solid 1px var(--blue100);
+cursor: pointer;
+margin-right: 10px;
+width:100%;
+
 }

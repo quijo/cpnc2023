@@ -54,8 +54,10 @@
     .container{
         flex-direction: column;
         justify-content: start;
-        gap: 24px;
+        gap: 10px;
         font-size: small;
+        height: auto;
+        padding:20px;
     }
     .copyright{
         text-align: center;
@@ -72,5 +74,16 @@
     .social{
         justify-content: start;
         width: 100%;
+         
+        margin-left: 0;
+       
     }
+    .email{
+justify-content: start;
+margin-left: 0;
+
+width: 100%;
+
+    }
+    
 }

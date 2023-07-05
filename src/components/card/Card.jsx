@@ -18,8 +18,12 @@ const Card = (props) => {
        <h3 className={styles.cardTitle}>{props.title}</h3>
        <p className={styles.cardDesc}>{props.desc}</p>
        <div className={styles.btnContainer}>
-         <button className={styles.enrollBtn}>Enroll Now</button>
-         <Link href="#">Read More</Link>
+       <Link href="https://vnbc-essentiel.ckgroup.ph/preregv2">
+          <button className={styles.btnNew}>New Student</button>
+       </Link>
+        <Link href="https://vnbc-essentiel.ckgroup.ph/">
+            <button className={styles.btnOld}>Old Student</button>
+        </Link>
        </div>
       
     </div>
