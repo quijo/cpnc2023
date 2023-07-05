@@ -26,7 +26,7 @@ const College = () => {
                     </ul>
                     <h4 className={styles.start}>classes start - aug. 7, 2023</h4>
                     <h4 className={styles.end}>enrollment ends - aug 4, 2023</h4>
-                    <p className={styles.desc}>Isaiah 6:8  “Then I heard the voice of the Lord saying, &apos;Whom shall I send, and who will go for us? &apos;And I said, &apos;Here am I; send me!"<br/><br/></p>
+                    <p className={styles.desc}>Isaiah 6:8  &rdquo;Then I heard the voice of the Lord saying, &apos;Whom shall I send, and who will go for us? &apos;And I said, &apos;Here am I; send me!&rdquo;<br/><br/></p>
 <p>This is your time to answer God&apos;s call for you!  Say YES and ENROLL at Central Philippine Nazarene College </p>
                     
                     <p className={styles.contact}>Please contact: (032) 505-5131 / registrar@vnbc.edu.ph</p>
