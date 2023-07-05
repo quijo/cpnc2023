@@ -51,8 +51,8 @@ const Navbar = () => {
     <div className={styles.container} > 
         {/* LOGO */}
       <div className={styles.logo}>
-           <Image src={Logo} width={80} height={80} alt="cpnc" />
-           <Link href="/home" > CENTRAL PHILIPPINE <br/> NAZARENE COLLEGE</Link> 
+          <Link href="/" ><Image src={Logo} width={80} height={80} alt="cpnc" /></Link> 
+          <Link href="/" > CENTRAL PHILIPPINE <br/> NAZARENE COLLEGE</Link> 
       </div>
 
         {/* MENU */}
