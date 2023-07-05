@@ -13,7 +13,7 @@ const College = () => {
                         src="/college.svg"
                         width={300}
                         height={300}
-                        alt='cpnt college'
+                        alt="cpnt college"
                         className={styles.pic}
                     />
                 </div>
