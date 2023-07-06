@@ -24,8 +24,11 @@
     /* align-items: center; */
     /* border:solid 1px red; */
     flex: 1;
-    color: var(--yellow);
+    
     gap: 5px;
+}
+.textTitle{
+    color:var(--yellow)
 }
 .contact{
     margin-top: 10px;
