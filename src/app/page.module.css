@@ -57,19 +57,21 @@ margin-right: 10px;
 }
 .btnCollege{
     background-color: transparent;
-    padding:10px 24px;
+    padding:8px 24px;
     margin-top: 10px;
     /* border-radius: 20px; */
     color:#bbb;
     cursor: pointer;
     margin-right: 5px;
     border: none;
-    border-bottom:1px solid var(--yellow);
+    border:1px solid white;
+    border-radius: 24px;
     }
 .btnCollege:hover{
     /* background-color: var(--yellow); */
   
-    color:var(--yellow);
+    background-color: var(--yellow);
+    
     transition: 0.2s ease-in-out;
 }
 
