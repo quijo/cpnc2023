@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './college.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const College = () => {
   return (
@@ -30,6 +31,8 @@ const College = () => {
 <p>This is your time to answer God&apos;s call for you!  Say YES and ENROLL at Central Philippine Nazarene College </p>
                     
                     <p className={styles.contact}>Please contact: (032) 505-5131 / registrar@vnbc.edu.ph</p>
+
+                    <Link href="https://docs.google.com/document/d/10AAE-2f-4eCfDMXLMRnQteV5rWF8uy1S/edit?fbclid=IwAR1kxFqb50FrTcPmIqbHRcDJeFNtKyZd5bZAmzOVK3QIgwrBH9QVPxVlfvM"  target="blank"><button className={styles.btnCollege}>Apply Now!</button></Link>
                 </div>
             </div>
         </div>
