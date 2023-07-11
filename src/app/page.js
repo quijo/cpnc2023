@@ -22,7 +22,7 @@ export default function Home() {
           <Link href="https://vnbc-essentiel.ckgroup.ph/preregv2" target="blank"><button className={styles.btnNew}>New Student</button></Link>
           <Link href="https://vnbc-essentiel.ckgroup.ph/" target="blank"><button className={styles.btnOld}>Old Student</button></Link>
 
-          <Link href="https://docs.google.com/document/d/10AAE-2f-4eCfDMXLMRnQteV5rWF8uy1S/edit?fbclid=IwAR1kxFqb50FrTcPmIqbHRcDJeFNtKyZd5bZAmzOVK3QIgwrBH9QVPxVlfvM"  target="blank"><button className={styles.btnCollege}>College</button></Link>
+          <Link href="https://forms.gle/91uafKbfwUcSk1bYA"  target="blank"><button className={styles.btnCollege}>College</button></Link>
         </div>
 
         <div className={styles.details}>
