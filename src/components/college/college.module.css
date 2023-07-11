@@ -96,6 +96,19 @@
     border:solid white 1px;
 
 }
+.applicationBtn{
+    margin-top:24px;
+    background-color: transparent;
+    color:white;
+    border:solid white 1px;
+    border-radius: 24px;
+    padding:10px 24px;
+}
+.applicationBtn:hover{
+    background-color: var(--yellow);
+    color:var(--blue100);
+    border:none;
+}
 
 @keyframes move {
     from{

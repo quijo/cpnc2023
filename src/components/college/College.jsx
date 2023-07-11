@@ -31,8 +31,9 @@ const College = () => {
 <p>This is your time to answer God&apos;s call for you!  Say YES and ENROLL at Central Philippine Nazarene College </p>
                     
                     <p className={styles.contact}>Please contact: (032) 505-5131 / registrar@vnbc.edu.ph</p>
-
-                    <Link href="https://forms.gle/91uafKbfwUcSk1bYA"  target="blank"><button className={styles.btnCollege}>Apply Now!</button></Link>
+{/*  */}
+                    <Link href="https://docs.google.com/document/d/10AAE-2f-4eCfDMXLMRnQteV5rWF8uy1S/edit"  target="blank"><button className={styles.applicationBtn}>Apply Now!</button></Link>
+                    <Link href="https://forms.gle/91uafKbfwUcSk1bYA"  target="blank"><button className={styles.btnCollege}>Enroll Now!</button></Link>
                 </div>
             </div>
         </div>
