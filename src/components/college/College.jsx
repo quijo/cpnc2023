@@ -32,8 +32,21 @@ const College = () => {
                     
                     <p className={styles.contact}>Please contact: (032) 505-5131 / registrar@vnbc.edu.ph</p>
 {/*  */}
-                    <Link href="https://docs.google.com/document/d/10AAE-2f-4eCfDMXLMRnQteV5rWF8uy1S/edit"  target="blank"><button className={styles.applicationBtn}>Apply Now!</button></Link>
-                    <Link href="https://forms.gle/91uafKbfwUcSk1bYA"  target="blank"><button className={styles.btnCollege}>Enroll Now!</button></Link>
+
+                    <div className={styles.btnContainer}>
+                        <Link href="https://docs.google.com/document/d/10AAE-2f-4eCfDMXLMRnQteV5rWF8uy1S/edit"  target="blank"className={styles.btnLink}>
+                            <button className={styles.applicationBtn}>
+                                Apply Now!
+                            </button>
+                        </Link>
+
+                        <Link href="https://forms.gle/91uafKbfwUcSk1bYA"  target="blank">
+                            <button className={styles.btnCollege}>
+                            Enroll Now!
+                            </button>
+                        </Link>
+                    </div>
+                  
                 </div>
             </div>
         </div>
