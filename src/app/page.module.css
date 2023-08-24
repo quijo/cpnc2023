@@ -17,6 +17,9 @@
     gap: 30px;
 
 }
+.title{
+    color:var(--yellow)
+}
 .imageContainer{
     flex: 1;
     

@@ -19,21 +19,21 @@ const College = () => {
                     />
                 </div>
                 <div className={styles.text}>
-                    <h1 className={styles.textTitle}>Enrollment is Now Going On</h1>
+                    <h1 className={styles.textTitle}>Welcome Back to School</h1>
                     {/* <h4 className={styles.mode}>online & onsite</h4> */}
                     <ul className={styles.courseList}>
                         <li>Bachelor of arts in theology</li>
                         <li>Bachelor of arts in religious education</li>
                     </ul>
-                    <h4 className={styles.start}>classes start - aug. 7, 2023</h4>
-                    <h4 className={styles.end}>enrollment ends - aug 4, 2023</h4>
+                    {/* <h4 className={styles.start}>classes start - aug. 7, 2023</h4>
+                    <h4 className={styles.end}>enrollment ends - aug 4, 2023</h4> */}
                     <p className={styles.desc}>Isaiah 6:8  &rdquo;Then I heard the voice of the Lord saying, &apos;Whom shall I send, and who will go for us? &apos;And I said, &apos;Here am I; send me!&rdquo;<br/><br/></p>
-<p>This is your time to answer God&apos;s call for you!  Say YES and ENROLL at Central Philippine Nazarene College </p>
+{/* <p>This is your time to answer God&apos;s call for you!  Say YES and ENROLL at Central Philippine Nazarene College </p> */}
                     
-                    <p className={styles.contact}>Please contact: (032) 505-5131 / registrar@vnbc.edu.ph</p>
+                    {/* <p className={styles.contact}>Please contact: (032) 505-5131 / registrar@vnbc.edu.ph</p> */}
 {/*  */}
 
-                    <div className={styles.btnContainer}>
+                    {/* <div className={styles.btnContainer}>
                         <Link href="https://docs.google.com/document/d/10AAE-2f-4eCfDMXLMRnQteV5rWF8uy1S/edit"  target="blank"className={styles.btnLink}>
                             <button className={styles.applicationBtn}>
                                 Apply Now!
@@ -45,7 +45,7 @@ const College = () => {
                             Enroll Now!
                             </button>
                         </Link>
-                    </div>
+                    </div> */}
                   
                 </div>
             </div>
