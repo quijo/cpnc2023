@@ -16,7 +16,7 @@ export default function Home() {
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Mentoring Transformational Leaders</h1>
         <p className={styles.desc}>Central Philippine Nazarene College is committed to mentor transformational leaders of the next generation. We exist to provide quality Christian education, to recognize God&apos;s call and to serve the community with excellence. Partner with us in shaping the lives of our learners and equip them for their future.</p>
-        <h1 className={styles.title}>Welcome Back to</h1>
+        <h1 className={styles.title}>Welcome Back to School</h1>
         {/* <div className={styles.enrollmentBtn}>
           <h3>Enroll Now!</h3>
           <Link href="https://vnbc-essentiel.ckgroup.ph/preregv2" target="blank"><button className={styles.btnNew}>New Student</button></Link>
