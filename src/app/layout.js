@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'CPNC',
-  description: 'Central Philippi',
+  description: 'Central Philippine Nazarene College',
 }
 
 export default function RootLayout({ children }) {

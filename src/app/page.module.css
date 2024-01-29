@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 .mainContainer{
     display: flex;
     flex-direction: column;
@@ -12,13 +13,25 @@
     background-color: #cddfbe;
     padding-top:30px;
     padding-bottom: 30px;
+
 }
 .textContainer{
     display: flex;
     flex-direction: column;
-    flex:1;
+    flex:1.5;
+   
     /* gap: 30px; */
 
+}
+.textContainer p{
+    color:var(--blue100);
+
+}
+.textContainer h1{
+    font-family: 'Allura', cursive;
+    font-size:70px;
+    font-weight: 100;
+  
 }
 .title{
     color:var(--yellow)
@@ -133,10 +146,12 @@ margin-right: 10px;
     .textContainer{
         gap:16px;
     }
+   
     .title{
         font-size: 24px;
         text-align: center;
     }
+
     .subTitle{
         text-align: center;
     }
@@ -144,6 +159,13 @@ margin-right: 10px;
         font-size: 16px;
         
     }
+
+   .dateContainer{
+    color:red;
+    width: 200px;
+    height: 200px;
+
+   }
    
        
 }

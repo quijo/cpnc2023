@@ -17,7 +17,7 @@ export default function Home() {
       
       <div className={styles.imageContainer}>
         <Image
-          src="/buwan.jpg"
+          src="/60_logo.png"
           width={600}
           height={400}
           alt='cpnc'
@@ -25,8 +25,15 @@ export default function Home() {
         />
       </div>
       <div className={styles.textContainer}>
-         <h1 className={styles.title}>Central Philippine Nazarene College Celebrates Buwan ng Wika</h1>
-         <h2 className={styles.subTitle}>September 1, 2023</h2>
+         <h1 className={styles.title}>Reflecting Brilliance Transforming Generation</h1>
+         <h2 className={styles.subTitle}>February 7 - 9, 2024</h2>
+         <p>Founded in 1964 in Iloilo City.</p>
+         <p>Transfered to Cebu in Cebu City in 1986</p>
+         <p>Change of name from VNBC to CPNC in 2021</p>
+
+         <div className={styles.dateContainer}>
+          
+         </div>
         {/*<p className={styles.desc}>Central Philippine Nazarene College is committed to mentor transformational leaders of the next generation. We exist to provide quality Christian education, to recognize God&apos;s call and to serve the community with excellence. Partner with us in shaping the lives of our learners and equip them for their future.</p>
         <h1 className={styles.title}>Welcome Back to School</h1> */}
         {/* <div className={styles.enrollmentBtn}>
