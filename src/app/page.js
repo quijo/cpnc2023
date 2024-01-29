@@ -28,7 +28,7 @@ export default function Home() {
          <h1 className={styles.title}>Reflecting Brilliance Transforming Generation</h1>
          <h2 className={styles.subTitle}>February 7 - 9, 2024</h2>
          <p>Founded in 1964 in Iloilo City.</p>
-         <p>Transfered to Cebu in Cebu City in 1986</p>
+         <p>Transferred to Cebu in Cebu City in 1986</p>
          <p>Change of name from VNBC to CPNC in 2021</p>
 
          <div className={styles.dateContainer}>
