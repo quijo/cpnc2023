@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+
+/* 320px — 480px: Mobile devices */
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b6f5ec;
+    padding-bottom:30px;
+    margin-top:20px;
+    text-align: center;
+    /* border:solid 1px red; */
+}
+.imageContainer{
+    margin-top: 30px;
+}
+.textContainer{
+    text-align: center;
+    color: var(--blue100);
+    /* margin:0 10px; */
+
+
+}
+.textContainer h1{
+    font-family: 'Allura', cursive;
+    font-size:45px;
+    color:var(--yellow);
+    margin-bottom:50px;
+    line-height: 45px;
+   
+}
+.textContainer h2{
+    margin-bottom: 20px;
+   
+}
+
+
+/* 481px — 768px: iPads, Tablets */
+
+@media only screen and (min-width: 600px){
+
+    .section .img{
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+
+/* 769px — 1024px: Small screens, laptops */
+
+@media only screen and (min-width:769px){
+    .section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        /* align-items: center;
+        background-color: #b6f5ec;
+        padding-bottom:30px;
+        margin-top:20px;*/
+        
+    } 
+    .section .imageContainer {
+        flex: 1;
+        /* border:solid 1px red; */
+        text-align: center;
+
+    }
+    .section .textContainer{
+        margin-top: 50px;
+        margin-right:15px;
+        flex: 2;
+        /* border:solid 1px red; */
+    }
+    .textContainer h1{
+        font-size: 70px;
+        font-weight: 200;
+
+    }
+
+}
+
+
+

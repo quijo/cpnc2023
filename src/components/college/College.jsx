@@ -19,7 +19,7 @@ const College = () => {
                     />
                 </div>
                 <div className={styles.text}>
-                    <h1 className={styles.textTitle}>Welcome Back to School</h1>
+                    <h1 className={styles.textTitle}>Welcome Back to College Department</h1>
                     {/* <h4 className={styles.mode}>online & onsite</h4> */}
                     <ul className={styles.courseList}>
                         <li>Bachelor of arts in theology</li>
