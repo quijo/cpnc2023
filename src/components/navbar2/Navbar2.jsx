@@ -1,4 +1,5 @@
 'use client'
+
 import React from 'react'
 import styles from "./navbar2.module.css";
 import { FiAlignJustify } from "react-icons/fi";
