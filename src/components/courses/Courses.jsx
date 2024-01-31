@@ -4,8 +4,8 @@ import Card from '@/components/card/Card'
 
 const Courses = () => {
   return (
-    <main className={styles.container}>
-        <h1>Courses</h1>
+    <main className={styles.container } >
+        <h1 id='courses'>Courses</h1>
         <div className={styles.cardContainer}>
             <Card 
                 title="Preschool"

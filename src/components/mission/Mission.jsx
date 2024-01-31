@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 const Mission = () => {
   return (
-    <main className={styles.container} >
-        <div className={styles.textContainer}>
+    <main className={styles.container}id='mission'>
+        <div className={styles.textContainer} >
             <h1 className={styles.title}>
                 OUR MISSION
             </h1>

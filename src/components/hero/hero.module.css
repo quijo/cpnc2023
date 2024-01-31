@@ -12,8 +12,9 @@
     justify-content: center;
     background-color: #b6f5ec;
     padding-bottom:30px;
-    margin-top:20px;
+    margin-top:100px;
     text-align: center;
+  
     
     /* border:solid 1px red; */
 }
@@ -37,8 +38,15 @@
 }
 .textContainer h2{
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+
    
 }
+.textContainer p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
 
 
 /* 481px — 768px: iPads, Tablets */

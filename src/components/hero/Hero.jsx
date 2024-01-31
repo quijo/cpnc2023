@@ -1,13 +1,13 @@
 import React from 'react'
-import styles from './hero.module.css'
+import styles from '@/components/hero/hero.module.css'
 import Image from "next/image"
 
 function hero() {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} >
       
       
-    <div className={styles.imageContainer}>
+    <div className={styles.imageContainer}id="#hero" >
       <Image
         src="/60_logo.png"
         width={300}

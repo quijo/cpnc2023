@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 const College = () => {
   return (
-    <main id="college">
-        <div className={styles.container}>
+    <main>
+        <div className={styles.container} id="college">
             <h1 className={styles.status}>College Department</h1>
             <div className={styles.content}>
                 <div className={styles.img}>

@@ -45,6 +45,9 @@
     animation: move 2.5s ease alternate infinite;
 
 }
+.pic{
+    z-index: 0;
+}
 .status{
     margin-bottom: 20px;
 }
