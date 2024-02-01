@@ -13,11 +13,7 @@ const Footer = () => {
           src="/loc.png"
           width={30}
           height={30}
-<<<<<<< HEAD
-          alt='footer img'
-=======
           alt={"location"}
->>>>>>> 0713fe5c1c99ce15c13c1179b5cf2f5d6efdf89b
           />
           <p>Saint Mary&apos;s Drive Apas, Cebu City</p>
       </div>
