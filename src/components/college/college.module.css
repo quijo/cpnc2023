@@ -1,16 +1,16 @@
 .container{
    /* border:solid 1px red; */
    display: flex;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: center;
-   flex-direction: column;
+   flex-direction:flex-start ;
    margin-bottom: 20px;
    scroll-behavior: smooth;
   
 }
 .content{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 100px;
     padding:10px 0;
@@ -19,7 +19,7 @@
 }
 .text{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* justify-content: start; */
     /* align-items: center; */
     /* border:solid 1px red; */
@@ -39,7 +39,7 @@
 }
 .img{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex: 1;
     /* border:solid 1px red; */
     animation: move 2.5s ease alternate infinite;
@@ -126,7 +126,7 @@
 .btnContainer{
     margin-top: 10px;
     display:flex;
-    justify-content: start;
+    justify-content:flex-start;
     align-items: center;
     gap:10px;
   
