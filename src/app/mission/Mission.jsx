@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './mission.module.css'
+import styles from '@/app/mission/mission.module.css'
 import Image from 'next/image'
 
 const Mission = () => {

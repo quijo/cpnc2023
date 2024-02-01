@@ -1,9 +1,9 @@
 
 import styles from "./page.module.css"
-import Mission from "@/components/mission/Mission"
+import Mission from "@/app/mission/Mission"
 import Courses from "@/components/courses/Courses"
-import College from "@/components/college/College"
-import Hero from "@/components/hero/Hero"
+import College from "@/app/college/College"
+import Hero from "@/app/hero/Hero"
 
 
 
