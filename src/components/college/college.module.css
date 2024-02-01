@@ -21,7 +21,7 @@
 }
 .text{
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     /* justify-content: start; */
     /* align-items: center; */
     /* border:solid 1px red; */
