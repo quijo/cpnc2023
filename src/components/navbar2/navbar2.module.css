@@ -4,7 +4,7 @@
 
 .section{
     width: 100%;
-    background-color: rgba(242,167,27, 8);
+    background-color: rgba(242,167,27,0.9);
     position: fixed;
     z-index: 999;
 
