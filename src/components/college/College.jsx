@@ -1,7 +1,11 @@
 import React from 'react'
+<<<<<<< HEAD
 import styles from "@/components/college/college.module.css"
+=======
+import styles from '@/components/college/college.module.css'
+>>>>>>> 0713fe5c1c99ce15c13c1179b5cf2f5d6efdf89b
 import Image from 'next/image'
-import Link from 'next/link'
+
 
 const College = () => {
   return (
@@ -14,7 +18,7 @@ const College = () => {
                         src="/college.svg"
                         width={300}
                         height={300}
-                        alt="cpnt college"
+                        alt="cpnc college"
                         className={styles.pic}
                     />
                 </div>

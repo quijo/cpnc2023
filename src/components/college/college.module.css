@@ -3,7 +3,11 @@
    display: flex;
    justify-content: flex-start;
    align-items: center;
+<<<<<<< HEAD
    flex-direction:flex-start ;
+=======
+   /* flex-direction: column; */
+>>>>>>> 0713fe5c1c99ce15c13c1179b5cf2f5d6efdf89b
    margin-bottom: 20px;
    scroll-behavior: smooth;
   
@@ -126,7 +130,11 @@
 .btnContainer{
     margin-top: 10px;
     display:flex;
+<<<<<<< HEAD
     justify-content:flex-start;
+=======
+    justify-content: flex-start;
+>>>>>>> 0713fe5c1c99ce15c13c1179b5cf2f5d6efdf89b
     align-items: center;
     gap:10px;
   
